@@ -228,6 +228,6 @@ a {
 
 @media screen and (max-width: 600px) {
     .rules li {
-        font-size: 30px !important;
+        font-size: 60px !important;
     }
 }
