@@ -76,7 +76,7 @@ body {
 }
 
 .active {
-    background-color: #f7f7f7;
+    background-color: #f5f7dd;
 }
 .active .player-name {
     font-weight: 300;
@@ -226,7 +226,7 @@ a {
 
 /* media queries for rules */
 
-/* @media (max-width: 400px) {
+/* @media (max-width: 500px) {
     .rules {
         font-size: 100px;
     }
