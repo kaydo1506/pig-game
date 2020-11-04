@@ -15,7 +15,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
+    background-image: linear-gradient(rgba(102, 224, 75, 0.4), rgba(20, 62, 31, 0.4)), url(back.jpg);
     background-size: cover;
     background-position: center;
     font-family: Lato;
@@ -63,7 +63,7 @@ body {
     text-align: center;
     font-size: 80px;
     font-weight: 100;
-    color: #eb4d4d;
+    color: #0e5514;
     margin-bottom: 130px;
 }
 
@@ -78,13 +78,13 @@ body {
     content: '\2022';
     font-size: 47px;
     position: absolute;
-    color: #eb4d4d;
+    color: #f00606;
     top: -7px;
     right: 10px;
 }
 
 .player-current-box {
-    background-color: #eb4d4d;
+    background-color: #138a1dd7;
     color: #fff;
     width: 40%;
     margin: 0 auto;
@@ -131,7 +131,7 @@ button:focus {
 }
 
 i {
-    color: #eb4d4d;
+    color: #0e5514;
     display: inline-block;
     margin-right: 15px;
     font-size: 32px;
@@ -139,6 +139,15 @@ i {
     vertical-align: text-top;
     margin-top: -4px;
     transition: margin 0.3s;
+}
+
+.setscore {
+    text-align: center;
+    position: absolute;
+    width: 200px;
+    left: 40%;
+
+    top: 320px;
 }
 
 .btn-new {
@@ -151,19 +160,43 @@ i {
     top: 467px;
 }
 
-.dice {
-    position: absolute;
-    left: 50%;
-    top: 178px;
-    transform: translateX(-50%);
-    height: 100px;
-    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.1);
-}
-
 .winner {
     background-color: #f7f7f7;
 }
 .winner .player-name {
     font-weight: 300;
-    color: #eb4d4d;
+    color: #f00606;
+}
+
+/* CHALLENGE */
+.final-score {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 520px;
+    color: #555;
+    font-size: 18px;
+    font-family: 'Lato';
+    text-align: center;
+    padding: 10px;
+    width: 160px;
+    text-transform: uppercase;
+}
+
+.final-score:focus {
+    outline: none;
+}
+.dice {
+    position: absolute;
+    left: 50%;
+    top: 90px;
+    transform: translateX(-50%);
+    height: 100px;
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.1);
+}
+#dice-1 {
+    top: 120px;
+}
+#dice-2 {
+    top: 250px;
 }
