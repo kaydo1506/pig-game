@@ -226,8 +226,13 @@ a {
 
 /* media queries for rules */
 
-@media screen and (max-width: 600px) {
-    li {
-        font-size: 60px !important;
+/* @media (max-width: 400px) {
+    .rules {
+        font-size: 100px;
     }
-}
+    .link {
+        text-decoration: none;
+        background-color: rgb(190, 8, 8);
+        padding: 8px;
+    }
+} */
