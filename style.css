@@ -227,7 +227,7 @@ a {
 /* media queries for rules */
 
 @media screen and (max-width: 600px) {
-    .rules li {
+    li {
         font-size: 60px !important;
     }
 }
