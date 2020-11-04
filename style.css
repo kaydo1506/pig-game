@@ -22,7 +22,7 @@ body {
     font-family: Lato;
     font-weight: 300;
     position: relative;
-    height: 900px;
+    height: 100vh;
     color: #555;
 }
 
@@ -36,6 +36,12 @@ body {
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
     overflow: hidden;
 }
+/* .rules {
+    position: absolute;
+    top: 80%;
+    transform: translate(-50%, -50%);
+ 
+} */
 
 .player-0-panel,
 .player-1-panel {
@@ -202,13 +208,9 @@ i {
     top: 250px;
 }
 
-/* media queries for rules */
+/* media queries for rules
 @media (max-width: 600px) {
-    .rules,
-    .rules li {
-        font-size: 50px;
-    }
     body {
-        height: 800px;
+        height: 500px;
     }
-}
+} */
